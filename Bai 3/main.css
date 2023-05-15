@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #151B32;
+}
+
+.app_wrapper{
+    width: 100%;
+    max-width: 1200px;
+    margin: 100px auto;
+    overflow: hidden;
+}
+.header-name{
+    font-size: 32px;
+    line-height: 40px;
+    font-family: 'Merriweather';
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 0 70px;
+}
+
+.header-search{
+    padding: 16px;
+    display: flex;
+    border: 1px solid #BFC8E6;
+    border-radius: 4px
+}
+
+.header-search-icon{
+    font-size: 32px;
+}
+.header-search-input{
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    outline: none;
+    margin-left: 8px;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-item{
+    padding: 16px;
+    text-align: center;
+}
+
+.nav-item.active {
+    background-color: #849FFF;
+    border-radius: 8px;
+    color: #fff;
+}
+.users-list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -8px;
+    margin-right: -8px;
+    row-gap: 16px;
+}
+
+.user-item-wrapper{
+    flex: 0 0 33.33333%;
+    max-width: 33.3333%;  
+    padding-left: 8px;
+    padding-right: 8px;
+   
+
+}
+
+.user-item-content{
+    height: 208px;
+    display: flex;
+    align-items: flex-start;
+    padding: 24px;
+    background-color: #FBFCFF;
+    border-radius: 16px;
+    gap: 16px
+}
+.user-item-content.active {
+    border: 1px solid #BFC8E6;
+    box-shadow: 0px 8px 23px rgba(218, 224, 249, 0.7);
+}
+
+
+.user-name{
+    font-family: 'Merriweather';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    margin: 20px 0 4px;
+}
+
+.user-address{
+    margin-bottom: 16px;
+}
+
+.user-favorites{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px
+}
+
+.user-favoriste-item{
+   
+    padding: 2px 8px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    border: 1px solid #BFC8E6;
+    border-radius: 10px;
+    color: #516FD4;
+}
